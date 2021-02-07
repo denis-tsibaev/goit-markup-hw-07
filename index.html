@@ -12,7 +12,7 @@
 	<link
 		href="https://fonts.googleapis.com/css2?family=Raleway:wght@700;900&family=Roboto:wght@400;500;700;900&display=swap"
 		rel="stylesheet">
-	<link rel="stylesheet" href="./css/style.min.css">
+	<link rel="stylesheet" href="./css/main.min.css">
 </head>
 
 <body>
@@ -55,7 +55,7 @@
 	</header>
 	<!-- //Шапка сайта -->
 
-	<!-- Баннер-->
+	<!-- Баннер герой -->
 	<section class="hero-banner overlay">
 		<div class="div-hero-txt">
 			<h1>Эффективные решения
@@ -63,15 +63,15 @@
 			<button class="hero-btn" type="button" data-modal-open>Заказать услугу</button>
 		</div>
 	</section>
-	<!-- //Баннер-->
+	<!-- //Баннер герой-->
 
 	<!-- Список преимуществ-->
 	<section class="feature">
 		<div class="container">
 			<ul class="feature-list">
 				<li class="item">
-					<div class="bg-feature-icon">
-						<svg class="icon-feature">
+					<div class="feature-icon-background">
+						<svg class="feature-icon">
 							<use href="./img/symbol-defs.svg#icon-antenna"></use>
 						</svg>
 					</div>
@@ -79,8 +79,8 @@
 					<p>Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
 				</li>
 				<li class="item">
-					<div class="bg-feature-icon">
-						<svg class="icon-feature">
+					<div class="feature-icon-background">
+						<svg class="feature-icon">
 							<use href="./img/symbol-defs.svg#icon-clock"></use>
 						</svg>
 					</div>
@@ -88,8 +88,8 @@
 					<p>Задача организации, в особенности же рамки и место обучения кадров влечет за собой.</p>
 				</li>
 				<li class="item">
-					<div class="bg-feature-icon">
-						<svg class="icon-feature">
+					<div class="feature-icon-background">
+						<svg class="feature-icon">
 							<use href="./img/symbol-defs.svg#icon-diagram"></use>
 						</svg>
 					</div>
@@ -97,8 +97,8 @@
 					<p>Равным образом консультация с широким активом в значительной степени обуславливает.</p>
 				</li>
 				<li class="item">
-					<div class="bg-feature-icon">
-						<svg class="icon-feature">
+					<div class="feature-icon-background">
+						<svg class="feature-icon">
 							<use href="./img/symbol-defs.svg#icon-astronaut"></use>
 						</svg>
 					</div>
@@ -158,13 +158,14 @@
 						<h3>Игорь Демьяненко</h3>
 						<p>Product Designer</p>
 						<ul class="member-socialnet-list">
-							<li><a class="member-sn-link" href="">
+							<li>
+								<a class="member-sn-link" href="">
 									<svg class="socialnet-icon">
 										<use href="./img/symbol-defs.svg#icon-instagram"></use>
 									</svg>
 								</a>
-
 							</li>
+
 							<li>
 								<a class="member-sn-link" href="">
 									<svg class="socialnet-icon">
@@ -172,6 +173,7 @@
 									</svg>
 								</a>
 							</li>
+
 							<li>
 								<a class="member-sn-link" href="">
 									<svg class="socialnet-icon">
@@ -179,6 +181,7 @@
 									</svg>
 								</a>
 							</li>
+
 							<li>
 								<a class="member-sn-link" href="">
 									<svg class="socialnet-icon">
@@ -425,7 +428,6 @@
 	<!-- //футер  -->
 
 	<!-- Модальное окно  -->
-	<!-- не забыть вернуть class="backdrop is-hidden" в бэкдроп -->
 	<div class="backdrop is-hidden" data-modal>
 		<div class="modal">
 			<button class="modal-close-button" data-modal-close>
