@@ -32,6 +32,11 @@
         transition-property: color;
         transition-duration: 250ms;
         transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+        &:hover,
+        &:focus {
+          color: $accent-color;
+        }
       }
     }
 
@@ -54,7 +59,7 @@
           width: 100%;
           height: 100%;
           border-radius: 50%;
-          background-color: social-footer-bg;
+          background-color: $social-footer-bg;
           display: flex;
           justify-content: center;
           align-items: center;
